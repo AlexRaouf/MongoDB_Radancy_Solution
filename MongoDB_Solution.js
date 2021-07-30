@@ -1,0 +1,1 @@
+db.users.find(   \{ houses: \{ $elemMatch: \{ neighborhood: "Uptown" \} \} \})}
